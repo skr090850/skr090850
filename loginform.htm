@@ -1,0 +1,756 @@
+* {
+  box-sizing: border-box;
+}
+form {
+  margin: auto;
+  margin-top: 8%;
+  padding: 10px;
+  border: 3px solid white;
+  border-radius: 0 40px;
+  width: 350px;
+  height: 500px;
+  box-shadow: 15px 15px 20px 5px rgba(119, 119, 119, 0.3),
+    -15px -15px 20px 5px rgba(255, 255, 255, 0.8),
+    inset 15px 15px 20px 5px rgba(119, 119, 119, 0.3),
+    inset -15px -15px 20px 5px rgba(255, 255, 255, 0.8);
+}
+h1 {
+  margin: 40px 2px;
+  text-align: center;
+  /* font-size:xx-large; */
+  /* color: white; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 2px;
+  /* text-shadow: 0px 0px 5px rgb(0, 0, 0); */
+}
+input[type="text"] {
+  border: none;
+  border: solid white;
+  width: 100%;
+  padding: 10px 15px;
+  margin: 5px 2px;
+  border-radius: 0 10px;
+  outline: none;
+  box-shadow: 4px 4px 5px 2px rgba(119, 119, 119, 0.3),
+    -4px -4px 5px 2px rgba(255, 255, 255, 0.8),
+    inset 4px 4px 5px 2px rgba(119, 119, 119, 0.3),
+    inset -4px -4px 5px 2px rgba(255, 255, 255, 0.8);
+  background-color: white;
+}
+input[type="text"]:focus {
+  box-shadow: 0px 0px 5px 2px black,
+              inset 0px 0px 5px 2px black;
+  background-color: white;
+}
+label {
+  margin-left: 10px;
+  font-size: larger;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* text-shadow: 0px 0px 5px black; */
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+button {
+  margin-left: 20%;
+  padding: 10px;
+  width: 60%;
+  /* color:white; */
+  background-color: white;
+  /* text-shadow: 0px 0px 5px black; */
+  font-size: large;
+  border-radius: 0 10px;
+}
+button:hover {
+  font-weight: bold;
+  /* text-shadow: 2px 2px 5px white; */
+  box-shadow: 4px 4px 5px 2px rgba(119, 119, 119, 0.3),
+    -4px -4px 5px 2px rgba(255, 255, 255, 0.8),
+    inset 4px 4px 5px 2px rgba(119, 119, 119, 0.3),
+    inset -4px -4px 5px 2px rgba(255, 255, 255, 0.8);
+}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forgot</title>
+    <link rel="stylesheet" href="forgot.css" />
+  </head>
+  <body>
+    <form action="#">
+      <h1>Forgot Password</h1>
+      <label for="text">Email i'd or Phone number :</label>
+      <input
+        type="text"
+        name="text"
+        id="text"
+        placeholder="Enter email i'd or phone no...."
+      /> <br><br><br>
+      <button><a href="otp.htm">Click</a></button>
+    </form>
+  </body>
+</html>
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(dark-purple-colour-abstract-image-hd-wallpaper.png);
+
+
+}
+h1{
+    margin: 40px 2px;
+    text-align: center;
+    /* font-size:xx-large; */
+    color: rgb(223, 10, 194);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px white;
+}
+.form{
+    background-image: url(bkgnd.jpg);
+    margin: auto;
+    margin-top: 8%;
+    padding: 10px;
+    border: 3px ridge white;
+    border-radius: 20px;
+    width: 350px;
+    height: 500px;
+    box-shadow: 0px 0px 10px white;
+}
+.link p a{
+    margin-left: 10px;
+    color:rgb(84, 84, 247);
+    text-decoration: none;
+}
+.link p a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+input[type=text],input[type=password]{
+    border: none;
+    border: ridge white;
+    width:100%;
+    padding: 10px 2px;
+    margin: 5px 2px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0px 0px 5px gray;
+    font-size: large;
+
+    
+}
+input[type=text]:focus ,input[type=password]:focus{
+    border-bottom: solid black;
+    background-color: rgb(243, 242, 242);
+}
+label{
+    font-size:larger;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 2px 2px 5px rgb(237, 26, 245) ;
+}
+input[type=submit]{
+    padding: 10px;
+    width: 100%;
+    background-color: #ee92ee;
+    font-size: large;
+    border-radius: 20px;;
+
+}
+input[type=submit]:hover{
+    background-color: #ee82ee;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <!-- <link rel="stylesheet" href="form.css" /> -->
+    <!-- <link rel="stylesheet" href="black.css"> -->
+    <link rel="stylesheet" href="white.css">
+    <style></style>
+  </head>
+  <body>
+    <div class="form">
+      <h1>Login</h1>
+      <label class="username" for="username">Username:</label><br />
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Enter your username....."
+      /><br /><br />
+      <label for="password" class="password">Password:</label><br />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter the correct password...."
+      /><br />
+      <div class="link">
+        <p>
+          <a href="newuser.htm">New user</a>
+          <a href="forgot.htm">Forgot Password</a>
+        </p>
+      </div>
+      <br /><br />
+      <input type="submit" value="Signup" />
+    </div>
+  </body>
+</html>
+
+* {
+    box-sizing: border-box;
+  }
+  form {
+    margin: auto;
+    margin-top: 8%;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 0 40px;
+    width: 350px;
+    height: 500px;
+    box-shadow: 15px 15px 20px 5px rgba(119, 119, 119, 0.3),
+      -15px -15px 20px 5px rgba(255, 255, 255, 0.8),
+      inset 15px 15px 20px 5px rgba(119, 119, 119, 0.3),
+      inset -15px -15px 20px 5px rgba(255, 255, 255, 0.8);
+  }
+  h1 {
+    margin: 40px 2px;
+    text-align: center;
+    /* font-size:xx-large; */
+    /* color: white; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    letter-spacing: 2px;
+    /* text-shadow: 0px 0px 5px rgb(0, 0, 0); */
+  }
+  input[type="password"] {
+    border: none;
+    border: solid white;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 5px 2px;
+    border-radius: 0 10px;
+    outline: none;
+    box-shadow: 4px 4px 5px 2px rgba(119, 119, 119, 0.3),
+      -4px -4px 5px 2px rgba(255, 255, 255, 0.8),
+      inset 4px 4px 5px 2px rgba(119, 119, 119, 0.3),
+      inset -4px -4px 5px 2px rgba(255, 255, 255, 0.8);
+    background-color: white;
+  }
+  input[type="password"]:focus {
+    box-shadow: 0px 0px 5px 2px black,
+                inset 0px 0px 5px 2px black;
+    background-color: white;
+  }
+  label {
+    margin-left: 10px;
+    font-size: larger;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    /* text-shadow: 0px 0px 5px black; */
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  button {
+    margin-left: 20%;
+    padding: 10px;
+    width: 60%;
+    /* color:white; */
+    background-color: white;
+    /* text-shadow: 0px 0px 5px black; */
+    font-size: large;
+    border-radius: 0 10px;
+  }
+  button:hover {
+    font-weight: bold;
+    /* text-shadow: 2px 2px 5px white; */
+    box-shadow: 4px 4px 5px 2px rgba(119, 119, 119, 0.3),
+      -4px -4px 5px 2px rgba(255, 255, 255, 0.8),
+      inset 4px 4px 5px 2px rgba(119, 119, 119, 0.3),
+      inset -4px -4px 5px 2px rgba(255, 255, 255, 0.8);
+  }
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new_password_generate</title>
+    <link rel="stylesheet" href="new_password_generate.css">
+</head>
+<body>
+    <form action="#">
+        <h1>New Password Generate</h1>
+        <label for="password">New Password :</label><br>
+        <input type="password" name="password" id="password" placeholder="New Password...."><br>
+        <label for="password">Re-New Password :</label><br>
+        <input type="password" name="password" id="password" placeholder="Re-New Password...."><br><br><br>
+        <button><a href="form.htm">Login</a></button>
+
+    </form>
+</body>
+</html>
+h1 {
+  margin: 40px 2px;
+  text-align: center;
+  /* font-size:xx-large; */
+  /* color: white; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 2px;
+}
+.containor {
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+  height: 100%;
+  border: 3px solid white;
+  border-radius: 0 30px;
+  box-shadow: 15px 15px 20px 5px rgba(119, 119, 119, 0.3),
+    -15px -15px 20px 5px rgba(255, 255, 255, 0.8),
+    inset 15px 15px 20px 5px rgba(119, 119, 119, 0.3),
+    inset -15px -15px 20px 5px rgba(255, 255, 255, 0.8);
+}
+.fname,
+.lname,
+.course,
+.gender,
+.address,
+.email,
+.password {
+  border: solid white;
+  border-radius: 0 15px;
+  margin: 10px 0;
+  padding: 10px 10px;
+  box-shadow: 4px 4px 5px 2px rgba(119, 119, 119, 0.3),
+    -4px -4px 5px 2px rgba(255, 255, 255, 0.8),
+    inset 4px 4px 5px 2px rgba(119, 119, 119, 0.3),
+    inset -4px -4px 5px 2px rgba(255, 255, 255, 0.8);
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-bottom: 0.1px solid grey;
+  box-shadow: inset 0px -10px 5px 0px rgb(245, 241, 241);
+  /* width:70%; */
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+  outline: none;
+  border: white;
+  width: 70%;
+  /* transition: width 0.1s ease-in-out; */
+}
+
+label {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* text-shadow: 0px 0px 5px black; */
+}
+input[type="submit"],
+input[type="reset"] {
+  padding: 10px;
+  width: 30%;
+  /* color:white; */
+  background-color: white;
+  /* text-shadow: 0px 0px 5px black; */
+  font-size: large;
+  border-radius: 0 15px;
+  margin: 10px;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  font-weight: bold;
+  /* text-shadow: 2px 2px 5px white; */
+  box-shadow: 4px 4px 5px 2px rgba(119, 119, 119, 0.3),
+    -4px -4px 5px 2px rgba(255, 255, 255, 0.8),
+    inset 4px 4px 5px 2px rgba(119, 119, 119, 0.3),
+    inset -4px -4px 5px 2px rgba(255, 255, 255, 0.8);
+}
+.footer {
+  margin: 0 15%;
+  display: inline;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="newuser.css" />
+  </head>
+  <body>
+    <div class="containor">
+      <h1>Registration Form</h1>
+      <form action="#form">
+        <div class="fname">
+          <label for="fname">First Name :</label>
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            placeholder="Your first name...."
+          />
+        </div>
+        <div class="lname">
+          <label for="lname">Last Name :</label>
+          <input
+            type="text"
+            name="lname"
+            id="lname"
+            placeholder="Your last name...."
+          />
+        </div>
+        <div class="course">
+          <label for="course">Choose the Course :</label>
+
+          <select name="course" id="course">
+            <optgroup label="Choose the Course">
+              <option value="Arts">Arts</option>
+              <option value="Science">Science</option>
+              <option value="Commerce">Commerce</option>
+            </optgroup>
+          </select>
+        </div>
+        <div class="gender">
+          <label for="gender">Gender:</label>
+          <input type="radio" name="gender" id="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" />
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="transgender" />
+          <label for="transgender">Transgender</label>
+        </div>
+        <div class="address">
+          <label for="address">Address :</label>
+          <textarea
+            name="address"
+            id="address"
+            cols="30"
+            rows="10"
+            placeholder="Your address...."
+          ></textarea>
+        </div>
+        <div class="email">
+          <label for="email i'd">Email i'd:</label>
+          <input
+            type="email"
+            name="email i'd"
+            id="email i'd"
+            placeholder="Your email i'd...."
+          />
+        </div>
+        <div class="password">
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="New password...."
+          />
+        </div>
+        <div class="password">
+          <label for="Re-type password">Re-type Password</label>
+          <input
+            type="password"
+            name="password"
+            id="Re-type password"
+            placeholder="Re-type password...."
+          />
+        </div><br>
+        <div class="footer">
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+* {
+  box-sizing: border-box;
+}
+form {
+  margin: auto;
+  margin-top: 8%;
+  padding: 10px;
+  border: 3px solid white;
+  border-radius: 0 40px;
+  width: 350px;
+  height: 500px;
+  box-shadow: 15px 15px 20px 5px rgba(119, 119, 119, 0.3),
+    -15px -15px 20px 5px rgba(255, 255, 255, 0.8),
+    inset 15px 15px 20px 5px rgba(119, 119, 119, 0.3),
+    inset -15px -15px 20px 5px rgba(255, 255, 255, 0.8);
+}
+h1 {
+  margin: 40px 2px;
+  text-align: center;
+  /* font-size:xx-large; */
+  /* color: white; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* letter-spacing: 2px; */
+  /* text-shadow: 0px 0px 5px rgb(0, 0, 0); */
+}
+input[type="text"] {
+  border: none;
+  border: solid white;
+  width: 100%;
+  padding: 10px 15px;
+  margin: 5px 2px;
+  border-radius: 0 10px;
+  outline: none;
+  box-shadow: 4px 4px 5px 2px rgba(119, 119, 119, 0.3),
+    -4px -4px 5px 2px rgba(255, 255, 255, 0.8),
+    inset 4px 4px 5px 2px rgba(119, 119, 119, 0.3),
+    inset -4px -4px 5px 2px rgba(255, 255, 255, 0.8);
+  background-color: white;
+}
+input[type="text"]:focus {
+  box-shadow: 0px 0px 5px 2px black,
+              inset 0px 0px 5px 2px black;
+  background-color: white;
+}
+label {
+  margin-left: 10px;
+  font-size: larger;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* text-shadow: 0px 0px 5px black; */
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+button {
+  margin-left: 20%;
+  padding: 10px;
+  width: 60%;
+  /* color:white; */
+  background-color: white;
+  /* text-shadow: 0px 0px 5px black; */
+  font-size: large;
+  border-radius: 0 10px;
+}
+button:hover {
+  font-weight: bold;
+  /* text-shadow: 2px 2px 5px white; */
+  box-shadow: 4px 4px 5px 2px rgba(119, 119, 119, 0.3),
+    -4px -4px 5px 2px rgba(255, 255, 255, 0.8),
+    inset 4px 4px 5px 2px rgba(119, 119, 119, 0.3),
+    inset -4px -4px 5px 2px rgba(255, 255, 255, 0.8);
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP</title>
+    <link rel="stylesheet" href="otp.css">
+</head>
+<body>
+    <form action="#">
+        <h1>One Time Password</h1>
+    <label for="otp">Enter the OTP :</label>
+    <input type="text" name="otp" id="otp" placeholder="Enter four digit num..." ><br><br><br>
+    <button><a href="new_password_generate.htm">Click</a></button>
+</form>
+</body>
+</html>
+* {
+    box-sizing: border-box;
+  }
+  /* body {
+    background-color: black;
+  } */
+  h1 {
+    margin: 40px 2px;
+    text-align: center;
+    /* font-size:xx-large; */
+    /* color: white; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    letter-spacing: 2px;
+    /* text-shadow: 0px 0px 5px rgb(0, 0, 0); */
+  }
+  .form {
+    margin: auto;
+    margin-top: 8%;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 0 40px;
+    width: 350px;
+    height: 500px;
+    box-shadow: 15px 15px 20px 5px rgba(119,119,119, 0.3),
+                -15px -15px 20px 5px rgba(255, 255, 255, 0.8),
+                inset 15px 15px 20px 5px rgba(119,119,119, 0.3),
+                inset -15px -15px 20px 5px rgba(255, 255, 255, 0.8);
+  }
+  .link p a {
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+  }
+  .link p a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  input[type="text"],
+  input[type="password"] {
+    border: none;
+    border: solid white;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 5px 2px;
+    border-radius: 0 10px;
+    outline: none;
+    box-shadow: 4px 4px 5px 2px rgba(119,119,119, 0.3),
+    -4px -4px 5px 2px rgba(255, 255, 255, 0.8),
+    inset 4px 4px 5px 2px rgba(119,119,119, 0.3),
+    inset -4px -4px 5px 2px rgba(255, 255, 255, 0.8);
+    background-color: white;
+  }
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    box-shadow: 0px 0px 5px 2px black,
+                inset 0px 0px 5px 2px black;
+    background-color: white;
+  }
+  label {
+    margin-left: 10px;
+    font-size: larger;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    /* text-shadow: 0px 0px 5px black; */
+  }
+  input[type="submit"] {
+    margin-left: 20%;
+    padding: 10px;
+    width: 60%;
+    /* color:white; */
+    background-color: white;
+    /* text-shadow: 0px 0px 5px black; */
+    font-size: large;
+    border-radius: 0 10px;
+  }
+  input[type="submit"]:hover {
+    font-weight: bold;
+    /* text-shadow: 2px 2px 5px white; */
+    box-shadow:  4px 4px 5px 2px rgba(119,119,119, 0.3),
+    -4px -4px 5px 2px rgba(255, 255, 255, 0.8),
+    inset 4px 4px 5px 2px rgba(119,119,119, 0.3),
+    inset -4px -4px 5px 2px rgba(255, 255, 255, 0.8);
+  }
+  
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+h1 {
+  margin: 40px 2px;
+  text-align: center;
+  /* font-size:xx-large; */
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 2px;
+  /* text-shadow: 2px 2px 5px rgb(206, 199, 199); */
+}
+.form {
+  background-color: black;
+  margin: auto;
+  margin-top: 8%;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 0 40px;
+  width: 350px;
+  height: 500px;
+  box-shadow: 10px 10px 20px 5px rgba(255, 255, 255, 0.5),
+    -10px -10px 20px 5px rgba(255, 255, 255, 0.1),
+    inset 10px 10px 20px 5px rgba(255, 255, 255, 0.5),
+    inset -10px -10px 20px 5px rgba(255, 255, 255, 0.1);
+}
+.link p a {
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+}
+.link p a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+input[type="text"],
+input[type="password"] {
+  border: none;
+  border: solid black;
+  width: 100%;
+  padding: 10px 15px;
+  margin: 5px 2px;
+  border-radius: 0 10px;
+  outline: none;
+  box-shadow: 4px 4px 5px 2px rgba(255, 255, 255, 0.5),
+  -4px -4px 5px 2px rgba(255, 255, 255, 0.1),
+  inset 4px 4px 5px 2px rgba(255, 255, 255, 0.5),
+  inset -4px -4px 5px 2px rgba(255, 255, 255, 0.1);
+  background-color: black;
+  color: #ffffff;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  box-shadow: 0px 0px 5px 2px white,
+              inset 0px 0px 5px 2px white;
+  background-color: rgb(0, 0, 0);
+}
+label {
+  margin-left: 10px;
+  font-size: larger;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* text-shadow: 2px 2px 5px rgb(206, 199, 199); */
+}
+input[type="submit"] {
+  margin-left: 20%;
+  padding: 10px;
+  width: 60%;
+  color:white;
+  background-color: black;
+  font-size: large;
+  border-radius: 0 10px;
+}
+input[type="submit"]:hover {
+  font-weight: bold;
+  /* text-shadow: 2px 2px 5px white; */
+  box-shadow:  4px 4px 5px 2px rgba(255, 255, 255, 0.5),
+  -4px -4px 5px 2px rgba(255, 255, 255, 0.1),
+  inset 4px 4px 5px 2px rgba(255, 255, 255, 0.5),
+  inset -4px -4px 5px 2px rgba(255, 255, 255, 0.1);
+}
