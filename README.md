@@ -29,7 +29,7 @@
 
 ## 🔥 GitHub Contribution Streak
 
-![](https://nirzak-streak-stats.vercel.app/?user=ashwindumane&theme=radical&hide_border=false)
+![](https://nirzak-streak-stats.vercel.app/?user=skr090850&theme=radical&hide_border=false)
 
 ## 🧑‍💻 Top Contributors to My Repos
 
