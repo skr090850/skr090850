@@ -3,7 +3,7 @@
 🚀 A **passionate Software Developer** and **MERN Stack Engineer**, dedicated to building scalable web & mobile applications. I'm always learning, creating, and pushing limits with full-stack technologies and AI tools.
 
 📫 Reach me at: [skr090850@gmail.com](mailto:skr090850@gmail.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=skr090850&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/skr090850)
+<h1 align="left"> <img src="https://komarev.com/ghpvc/?username=skr090850&label=Profile%20views&color=0e75b6&style=flat" alt="skr090850" /> </h1>
 
 ---
 
