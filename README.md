@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Suraj Kumar
+# <img src="./wave.svg" width="28" style="vertical-align: middle;"> Hi, I'm Suraj Kumar
 
 🚀 A **passionate Software Developer** and **MERN Stack Engineer**, dedicated to building scalable web & mobile applications. I'm always learning, creating, and pushing limits with full-stack technologies and AI tools.
 
