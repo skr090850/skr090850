@@ -23,5 +23,5 @@
   </style>
 
   <!-- simple stylized hand (emoji-style using text) -->
-  <text x="20" y="120" font-family="Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji,EmojiSymbols" font-size="64" class="hand">👋</text>
+  <text x="20" y="100" font-family="Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji,EmojiSymbols" font-size="64" class="hand">👋</text>
 </svg>
