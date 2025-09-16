@@ -38,7 +38,7 @@
 
 ## 📊 Contribution Graph
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=skr090850&theme=react-dark&hide_border=true" alt="activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=skr090850&theme=radical&hide_border=true" alt="activity graph" />
 </p>
 
 ## 🏆 GitHub Trophies
