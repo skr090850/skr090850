@@ -37,7 +37,9 @@
 ![GitHub Contributors](https://github-contributor-stats.vercel.app/api?username=skr090850&limit=5&theme=radical&combine_all_yearly_contributions=true)
 
 ## 📊 Contribution Graph
-![Contribution Graph]("https://github-readme-activity-graph.vercel.app/graph?username=skr090850&theme=radical&hide_border=true" alt="activity graph")
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=skr090850&theme=react-dark&hide_border=true" alt="activity graph" />
+</p>
 
 ## 🏆 GitHub Trophies
 
